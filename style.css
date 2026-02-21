@@ -7,12 +7,11 @@
 
 html,
 body {
-  min-height: 100vh;
+  min-height: 100%;
   margin: 0;
 }
 
 body {
-  min-height: calc(100vh - 4rem);
   padding: 2rem 1.25rem;
   background-color: rgb(255, 245, 224);
   display: flex;
@@ -118,6 +117,10 @@ body {
 }
 
 @media (min-width: 40em) {
+  html,
+  body {
+    height: 100%;
+  }
   body {
     justify-content: center;
   }
