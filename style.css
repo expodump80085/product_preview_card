@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -7,19 +9,6 @@ html,
 body {
   min-height: 100%;
   margin: 0;
-}
-
-h2,
-h3,
-div,
-img,
-figure,
-form,
-button,
-span,
-p {
-  margin: 0;
-  padding: 0;
 }
 
 body {
