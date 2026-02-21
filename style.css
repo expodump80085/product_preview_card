@@ -116,29 +116,29 @@ body {
 }
 
 @media (min-width: 40em) {
-  html,
-  body {
-    height: 100%;
-  }
   body {
     justify-content: center;
   }
   .product-form {
     flex-direction: row;
     max-width: 40rem;
+    align-items: stretch;
   }
   .product-form figure,
   .product-div {
     width: 50%;
   }
-  .product-form figure {
-    height: 100%;
-  }
   .product-form img {
+    width: 100%;
     height: 100%;
-    width: auto;
+    object-fit: cover;
   }
   .product-div {
     gap: 2rem;
   }
+}
+
+.product-div button:focus-visible {
+  outline: 3px solid rgba(0, 128, 0, 0.6);
+  outline-offset: 3px;
 }
